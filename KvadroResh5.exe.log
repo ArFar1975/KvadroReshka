@@ -1,0 +1,82 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\vkolo\Documents\GitHub\KvadroReshka\KvadroResh5.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042BD1A в функции main() в файле C:/Users/vkolo/Documents/GitHub/KvadroReshka/KvadroResh5.cpp на строке 8 в модуле C:\Users\vkolo\Documents\GitHub\KvadroReshka\KvadroResh5.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 172, Date: 2023-08-12 11:12:24 +0400], Instance: 0x005052FC (32-bit), Flags: Cmdre0, Thread: 0x1F60 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042BD1A in C:\Users\vkolo\Documents\GitHub\KvadroReshka\KvadroResh5.exe: main() at C:/Users/vkolo/Documents/GitHub/KvadroReshka/KvadroResh5.cpp (8):
+
+      6:     long double a, b, c, d;
+      7:     printf("Hello! This program can solve ...\na*x^2 + b*x + c = 0\n");
+=>    8:     while (fabs(a-0) < ESP) {
+      9:         printf("Put \"a\" here:");
+     10:         scanf("%lf", &a);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-08-12 11:12:24 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\vkolo\desktop\programs\codoblock\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 19 2023 13:16:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 19 2023 13:16:41
+
+Run file:	C:\Users\vkolo\Documents\GitHub\KvadroReshka\KvadroResh5.exe
+Directory:	C:\Users\vkolo\Documents\GitHub\KvadroReshka
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\vkolo\Documents\GitHub\KvadroReshka\KvadroResh5.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042BD1A в функции main() в файле C:/Users/vkolo/Documents/GitHub/KvadroReshka/KvadroResh5.cpp на строке 8 в модуле C:\Users\vkolo\Documents\GitHub\KvadroReshka\KvadroResh5.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 172, Date: 2023-08-12 11:12:24 +0400], Instance: 0x005052FC (32-bit), Flags: Cmdre0, Thread: 0x1F60 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042BD1A in C:\Users\vkolo\Documents\GitHub\KvadroReshka\KvadroResh5.exe: main() at C:/Users/vkolo/Documents/GitHub/KvadroReshka/KvadroResh5.cpp (8):
+
+      6:     long double a, b, c, d;
+      7:     printf("Hello! This program can solve ...\na*x^2 + b*x + c = 0\n");
+=>    8:     while (fabs(a-0) < ESP) {
+      9:         printf("Put \"a\" here:");
+     10:         scanf("%lf", &a);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 172, Date: 2023-08-12 11:12:24 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\vkolo\desktop\programs\codoblock\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 19 2023 13:16:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 19 2023 13:16:41
+
+Run file:	C:\Users\vkolo\Documents\GitHub\KvadroReshka\KvadroResh5.exe
+Directory:	C:\Users\vkolo\Documents\GitHub\KvadroReshka
+
+--------------------------------------------------
